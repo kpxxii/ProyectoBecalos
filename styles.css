@@ -1,5 +1,94 @@
-h1{
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+.header {
+    background-color: #4CAF50;
+    padding: 20px;
+}
+
+/* Logo */
+.logo {
+    width: 120px;
+    height: 50px;
+    background-color: #1f3b4d;
+    color: white;
     text-align: center;
-    color: #20c81d;
-    margin-top: 20px;
+    line-height: 50px;
+    display: inline-block;
+}
+
+/* Navbar */
+.navbar {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-item {
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Buscador */
+.search {
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Cuenta */
+.account {
+    text-align: right;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+/* Banner */
+.banner {
+    height: 250px;
+    background-color: #2b7da3;
+    margin: 20px;
+}
+
+/* Categorías */
+.categories {
+    margin: 20px;
+}
+
+.category {
+    width: 30%;
+    height: 150px;
+    background-color: #ccc;
+    display: inline-block;
+    margin-right: 2%;
+    text-align: center;
+    line-height: 150px;
+}
+
+/* Marcas */
+.brands {
+    margin: 20px;
+}
+
+.brand {
+    width: 80px;
+    height: 80px;
+    background-color: #eee;
+    display: inline-block;
+    margin: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
