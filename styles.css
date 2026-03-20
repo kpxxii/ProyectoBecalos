@@ -219,3 +219,75 @@ body {
     font-size: 12px;
     color: #aaa;
 }
+
+
+
+
+
+/* PAGINA HOMBRES */
+/* LAYOUT PRINCIPAL */
+.shop {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* FILTROS */
+.filters {
+    border-right: 1px solid #ddd;
+    padding-right: 15px;
+}
+
+.filters h3 {
+    margin-bottom: 15px;
+}
+
+.filter-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* PRODUCTOS GRID */
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+/* CARD PRODUCTO */
+.product {
+    background-color: #fff;
+}
+
+/* IMAGEN */
+.product img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+/* TITULO */
+.product h4 {
+    font-size: 13px;
+    margin: 10px 0 5px;
+}
+
+/* DESCRIPCIÓN */
+.product p {
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* PRECIO */
+.product span {
+    font-weight: bold;
+}
+
+/* PRECIO EN OFERTA */
+.price-off {
+    color: red;
+}
