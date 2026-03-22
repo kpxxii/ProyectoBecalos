@@ -1,6 +1,16 @@
+/* Para comprobar la herencia de estilos en CSS puse un background en el body y luego en las categorias hombre, mujer y niños
+borre el background y puse un borde para ver si se hereda el background del body, y efectivamente se hereda el background del body, 
+ya que las categorias siguen teniendo el fondo verde aunque no tengan un background definido.
+Adicionalmente, el font-family también se hereda del body, por lo que las categorias también tienen la fuente definida en el body.
+
+En cuanto a la especificidad, el background color del body se heredo a las categorias, pero en el banner y footer no se heredo el background color del body, 
+ya que tienen un background color definido en su clase, por lo que el background color del body no se aplica a estos elementos.
+*/
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Bitcount Prop Double Ink', sans-serif;
+    font-size: 35px;
+    background-color: #347736;
 }
 
 /* HEADER */
@@ -65,9 +75,9 @@ body {
 .category {
     width: 30%;
     height: 150px;
-    background-color: #ccc;
     display: inline-block;
     margin-right: 2%;
+    border: 5px solid black;
     text-align: center;
     line-height: 150px;
 }
